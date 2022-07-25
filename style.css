@@ -1,0 +1,44 @@
+.header{
+    padding-top: 200px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-family: 'Emilys Candy', cursive;
+    font-size: 50px;
+    padding-left: 300px;
+    
+}
+.awayto{
+    text-align: center;
+    margin-bottom: 500px;
+}
+.zakat-background{
+    background-image: url(coin.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 750px;
+    width: 700pz;
+    
+}
+.donatebutton{
+    background-color: lightblue;
+    margin-top: 230px;
+    top: 50%;
+    left: 42%;
+    padding: 10px 10px;
+    position: absolute;
+    border-radius: 30px;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+.imge{
+    
+    width: 100%;
+    padding: 5px;
+}
+.wide{
+    
+    display: flex;
+    clear: both;
+    width: 33.33%;
+}
