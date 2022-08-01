@@ -1,10 +1,43 @@
+nav >ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+
+}
+nav li a{
+    text-decoration: none;
+    color: darkkhaki;
+    font-size: 20px;
+    padding: 0px 20px;
+
+
+}
+nav >ul >li:hover>ul{
+    display: block;
+}
+nav li:hover{
+    background-color: cornflowerblue;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: greenyellow;
+    padding: 0;
+}
+.dropdown li{
+    margin: 0;
+    padding: 0 20px;
+}
+
 .header{
-    padding-top: 200px;
+    padding-top: 250px;
     margin-bottom: 30px;
     text-align: left;
     font-family: 'Emilys Candy', cursive;
     font-size: 50px;
-    padding-left: 300px;
+    padding-left: 400px;
+    margin-right: 600px;
     
 }
 .awayto{
@@ -15,6 +48,7 @@
     background-image: url(coin.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-size:cover;
     height: 750px;
     width: 700pz;
     
@@ -34,11 +68,12 @@
 .imge{
     
     width: 100%;
-    padding: 5px;
+    padding: 5px 5px 5px 5px;
+
 }
 .wide{
     
     display: flex;
     clear: both;
-    width: 33.33%;
+    width: 100%;
 }
